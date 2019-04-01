@@ -9,7 +9,7 @@ Structures:
 
     2. Lambda: run code without provisioning / managing new servers. Only pay for the compute time.
 
-    3. ECS + Docker
+    3. ECS + Docker: cluster of EC2 in containers
 
 2. Data + Storage
     1. S3 
@@ -18,7 +18,7 @@ Structures:
 
     3. DynamoDB: key-val / document NoSQL in-memory DB with primary key supporting indexing (secondary indexing (sort key))
 
-    4. ElasticSearch
+    4. ElasticSearch: search engine
 
 3. Networking
     1. ALBs: Load Balancer to avoid single point failure and distribute traffic uniformly to multi server. needs to able to 1. detect dead server, 2. avoid heavy load on one server, 3. spin up new server when too much load. Using Round Robin / Metric-based / hashing. LB on many layer (App / Network / classic)
