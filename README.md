@@ -31,3 +31,6 @@ Structures:
     1. Auto Scaling
 
     2. CloudFormation: manage your cloud infra. it supports: 1. specify the state you want to achieve and let tool figure how, 2. roll back, 3. abstract away the AWS API, 3. reproducible (staging -> prod), 4. versionable (git). Using YAML or JSON format config file.
+
+
+![alt text](https://github.com/knightcnbj/Learn-AWS/blob/master/Screenshot%202019-04-01%2014.17.21.png)
